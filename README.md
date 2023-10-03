@@ -6,4 +6,4 @@ Current vision for the app layout:
 
 ![image](https://github.com/Sshahryar/ChemHelper9000/assets/123003299/a62b6305-463a-4c2b-9a3c-78219b7e4098)
 
-(Subject to change)
+(Subject to change) - (it did already change)
