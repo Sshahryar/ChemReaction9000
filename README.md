@@ -1,6 +1,8 @@
 # ChemHelper9000
 
-ChemHelper9000 is a vision to create a desktop and Android application for helping chem students in higher high school education. Such as honors and AP Chem, organic chem, e.t.c. Developed in Java.
+ChemHelper9000 is a vision to create a desktop and Android application for helping chem students in higher high school education. 
+
+Such as honors and AP Chem, organic chem, e.t.c. Developed in Java.
 
 Current vision for the app layout:
 
