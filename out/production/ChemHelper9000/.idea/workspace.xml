@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9977c98c-504a-40e9-9e80-8e054881f7c1" name="Changes" comment="" />
+    <list default="true" id="9977c98c-504a-40e9-9e80-8e054881f7c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChemHelper9000/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChemHelper9000/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChemHelper9000/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +48,8 @@
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.C:/Users/hussa/Downloads/ChemHelper9000/build.gradle">
-    <configuration name="BalancingEnter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.BalancingEnter">
+    <configuration name="BalancingEnter" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UI.BalancingEnter" />
       <module name="ChemHelper9000" />
       <extension name="coverage">
@@ -78,7 +84,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.C:/Users/hussa/Downloads/ChemHelper9000/build.gradle" />
-        <item itemvalue="Application.BalancingEnter" />
       </list>
     </recent_temporary>
   </component>
