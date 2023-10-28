@@ -1,0 +1,16 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClassName = 'your.package.name.YourMainClass'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.openjfx:javafx-controls:17.0.2'
+    implementation 'org.openjfx:javafx-fxml:17.0.2'
+}
