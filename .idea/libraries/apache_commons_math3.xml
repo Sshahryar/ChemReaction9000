@@ -3,6 +3,7 @@
     <properties maven-id="org.apache.commons:commons-math3:3.6.1" />
     <ANNOTATIONS>
       <root url="file://$PROJECT_DIR$/lib" />
+      <root url="file://$PROJECT_DIR$/.gradle" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/commons-math3-3.6.1.jar!/" />
