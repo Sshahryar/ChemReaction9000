@@ -51,10 +51,8 @@ public class BalancingEnter extends Application {
 
     // Input reaction model later
     private String balanceReaction(String reaction) {
-
-        // Where reaction model will be based
+        // Where the reaction model will be based
         // Base input for now
-
         return reaction;
     }
 }
