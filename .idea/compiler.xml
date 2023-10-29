@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ChemReaction9000" target="17" />
+      <module name="demo" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
