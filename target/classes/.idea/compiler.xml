@@ -6,11 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ChemReaction9000" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ChemReaction9000" target="17" />
+      <module name="ChemReaction9000" target="1.5" />
       <module name="demo" target="17" />
     </bytecodeTargetLevel>
   </component>
