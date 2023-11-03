@@ -1,0 +1,13 @@
+<dependencies>
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>11.0.2</version> <!-- Use the appropriate version -->
+    </dependency>
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-fxml</artifactId>
+        <version>11.0.2</version> <!-- Use the appropriate version -->
+    </dependency>
+    <!-- Add other JavaFX modules as needed -->
+</dependencies>
