@@ -10,10 +10,14 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class BalancingEnter {
-    public static void main(String[] args) {
+public class BalancingEnter extends Application {
 
-        public void start(Stage primaryStage) {
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage primaryStage) {
         primaryStage.setTitle("Chemical Reaction Simulator");
 
         // Creation of UI elements

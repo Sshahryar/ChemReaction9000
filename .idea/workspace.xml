@@ -8,56 +8,56 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ChemReaction9000.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChemReaction9000.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/BalancingEnter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/BalancingEnter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/libraries/openjfx_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/ChemReaction9000.eml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/ChemReaction9000.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/UI/ui.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/libraries/openjfx_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/ChemReaction9000.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/UI/ui.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.idea/libraries/openjfx_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/UI/ui.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/out/production/ChemReaction9000/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ChemReaction9000/target/classes/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/libraries/openjfx_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ChemReaction9000.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ChemReaction9000.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/UI/ui.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/libraries/openjfx_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/ChemReaction9000.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/UI/ui.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.idea/libraries/openjfx_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/UI/ui.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/out/production/ChemReaction9000/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/target/classes/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/hussa/Downloads/ChemReaction9000",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
