@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<component jdk="openjdk-21" jdk_type="JavaSDK">
-	<contentEntry url="file://$MODULE_DIR$"/>
-	<levels>
-		<level name="openjfx-11.0" value="project"/>
-	</levels>
-</component>
