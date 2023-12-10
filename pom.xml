@@ -12,9 +12,13 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
-    <dependencies>
-        <!-- Your existing dependencies go here -->
-    </dependencies>
+        <dependencies>
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-controls</artifactId>
+                <version>11.0.2</version>
+            </dependency>
+        </dependencies>
 
     <build>
         <plugins>
