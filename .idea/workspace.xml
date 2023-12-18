@@ -6,25 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9977c98c-504a-40e9-9e80-8e054881f7c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChemReaction9000.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChemReaction9000.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BalancingEnter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraries/Maven__org_openjfx_javafx_controls_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraries/Maven__org_openjfx_javafx_controls_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraries/Maven__org_openjfx_javafx_graphics_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraries/Maven__org_openjfx_javafx_graphics_win_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/libraries/openjfx_javafx_fxml.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ui.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-base-11-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-base-11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-controls-11-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-controls-11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-fxml-11-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-fxml-11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-graphics-11-win.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javafx-graphics-11.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +70,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/hussa/Downloads/ChemReaction9000",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -186,6 +175,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UI/BalancingEnter.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ChemReaction9000$BalancingEnter.ic" NAME="BalancingEnter Coverage Results" MODIFIED="1702351402149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
