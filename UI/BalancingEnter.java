@@ -54,4 +54,4 @@ public class BalancingEnter extends Application {
         // Base input for now
         return reaction;
     }
-}
+}   
