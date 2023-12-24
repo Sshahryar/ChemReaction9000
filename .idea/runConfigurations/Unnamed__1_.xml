@@ -4,7 +4,7 @@
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="BalancingEnter" />
     <module name="ChemReaction9000" />
-    <option name="VM_PARAMETERS" value="--module-path /path/to/javafx-sdk-11.0.1/lib --add-modules=javafx.controls,javafx.fxml " />
+    <option name="VM_PARAMETERS" value="--module-path PATH_TO_JAVAFX/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls  " />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
