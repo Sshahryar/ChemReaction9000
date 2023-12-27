@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.glavo.hmcl.openjfx:javafx-fxml:19.0.2.1-riscv64">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glavo/hmcl/openjfx/javafx-fxml/19.0.2.1-riscv64/javafx-fxml-19.0.2.1-riscv64.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glavo/hmcl/openjfx/javafx-fxml/19.0.2.1-riscv64/javafx-fxml-19.0.2.1-riscv64-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/glavo/hmcl/openjfx/javafx-fxml/19.0.2.1-riscv64/javafx-fxml-19.0.2.1-riscv64-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

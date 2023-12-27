@@ -18,6 +18,16 @@
                 <artifactId>javafx-controls</artifactId>
                 <version>19.0.2.1</version>
             </dependency>
+            <dependency>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-fxml</artifactId>
+                <version>20.0.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glavo.hmcl.openjfx</groupId>
+                <artifactId>javafx-fxml</artifactId>
+                <version>19.0.2.1-riscv64</version>
+            </dependency>
         </dependencies>
 
     <build>
