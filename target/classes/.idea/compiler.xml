@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ChemReaction9000" target="11" />
+      <module name="ChemReaction9000" target="9" />
       <module name="demo" target="17" />
     </bytecodeTargetLevel>
   </component>

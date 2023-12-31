@@ -2,9 +2,9 @@ package UI;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 public class BalancingEnter extends Application {
@@ -12,7 +12,11 @@ public class BalancingEnter extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        Parent root = FXMLLoader.load(getClass().getResource("BalancingEnter.fxml"));
+        Button balanceButton = new Button("Balance Reaction");
+        balanceButton.setOnAction(this::balanceReaction);
+
+        StackPane root = new StackPane();
+        root.getChildren().add(balanceButton);
 
         primaryStage.setTitle("Chemical Reaction Simulator");
         primaryStage.setScene(new Scene(root, 400, 300));
@@ -24,5 +28,6 @@ public class BalancingEnter extends Application {
     }
 
     public void balanceReaction(ActionEvent actionEvent) {
+        // Implement your balancing logic here
     }
 }

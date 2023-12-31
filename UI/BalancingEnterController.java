@@ -1,26 +1,24 @@
 package UI;
 
-import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
 
 public class BalancingEnterController {
 
-    @FXML
-    private TextField reactionInput;
+    private TextField reactionInput = new TextField();
+    private Button balanceButton = new Button("Balance Reaction");
+    private TextArea resultTextArea = new TextArea();
 
-    @FXML
-    private Button balanceButton;
-
-    @FXML
-    private TextArea resultTextArea;
-
-    @FXML
-    private void initialize() {
+    public BalancingEnterController() {
+        initialize();
     }
 
-    @FXML
+    private void initialize() {
+        balanceButton.setOnAction(event -> balanceReaction());
+    }
+
     private void balanceReaction() {
         String reaction = reactionInput.getText();
         String balancedReaction = balanceReaction(reaction);
@@ -28,7 +26,12 @@ public class BalancingEnterController {
     }
 
     private String balanceReaction(String reaction) {
-
         return reaction;
+    }
+
+    public VBox getView() {
+        VBox view = new VBox(10);
+        view.getChildren().addAll(reactionInput, balanceButton, resultTextArea);
+        return view;
     }
 }

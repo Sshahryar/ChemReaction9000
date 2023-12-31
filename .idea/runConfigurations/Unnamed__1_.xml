@@ -2,8 +2,9 @@
   <configuration default="false" name="Unnamed (1)" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-    <option name="MAIN_CLASS_NAME" value="BalancingEnter" />
+    <option name="MAIN_CLASS_NAME" value="UI.BalancingEnter" />
     <module name="ChemReaction9000" />
+    <option name="PROGRAM_PARAMETERS" value="--module-path %PATH_TO_FX%;%PATH_TO_FX%\lib" />
     <option name="VM_PARAMETERS" value="--module-path PATH_TO_JAVAFX/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls  " />
     <method v="2">
       <option name="Make" enabled="true" />
