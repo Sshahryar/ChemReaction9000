@@ -7,12 +7,7 @@
     <list default="true" id="9977c98c-504a-40e9-9e80-8e054881f7c1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Unnamed__1_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Unnamed__1_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/BalancingEnter.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/BalancingEnter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/BalancingEnterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/BalancingEnterController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ChemReaction9000.iml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ChemReaction9000.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,25 +185,6 @@
           <url>jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-win.jar!/javafx/application/Application.class</url>
           <line>72</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/UI/BalancingEnter.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/UI/BalancingEnter.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/UI/BalancingEnter.java</url>
-          <line>25</line>
-          <properties class="UI.BalancingEnter" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
