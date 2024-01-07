@@ -28,6 +28,5 @@ public class BalancingEnter extends Application {
     }
 
     public void balanceReaction(ActionEvent actionEvent) {
-        // Implement your balancing logic here
     }
 }
