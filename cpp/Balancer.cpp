@@ -32,6 +32,20 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
     return elementCount;
 }
 
+std::vector<std::vector<int>> buildMatrix(const std::unordered_map<std::string, int>& elementCount, const std::vector<std::string>& compounds) {
+    std::vector<std::vector<int>> matrix;
+
+    for (const auto& element : elementCount) {
+        std::vector<int> row;
+        for (const auto& compound : compounds) {
+            row.push_back(countElements(compound)[element.first]);
+        }
+        matrix.push_back(row);
+    }
+
+    return matrix;
+}
+
 std::string balanceReaction(const std::string& reaction) {
 
     std::unordered_map<std::string, int> elementCount = countElements("CH4");
