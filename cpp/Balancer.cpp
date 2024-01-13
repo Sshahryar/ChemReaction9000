@@ -3,6 +3,26 @@
 #include <vector>
 #include <unordered_map>
 
+void solveMatrix(std::vector<std::vector<int>>& matrix) {
+    int rows = matrix.size();
+    int cols = matrix[0].size();
+
+    for (int i = 0; i < rows; i++) {
+        int pivot = matrix[i][i];
+        
+        for (int j = i; j < cols; j++) {
+            matrix[i][j] /= pivot;
+        }
+        for (int k = 0; k < rows; k++) {
+            if (k != i) {
+                int factor = matrix[k][i];
+                for (int j = i; j < cols; j++) {
+                    matrix[k][j] -= factor * matrix[i][j];
+                }
+            }
+        }
+    }
+}
 
 std::unordered_map<std::string, int> countElements(const std::string& compound) {
     std::unordered_map<std::string, int> elementCount;
