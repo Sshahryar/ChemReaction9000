@@ -4,12 +4,32 @@
 #include <unordered_map>
 
 void solveMatrix(std::vector<std::vector<int>>& matrix) {
+
+}
+
+void adjustCoefficients(std::vector<std::vector<int>>& matrix) {
+
+}
+
+std::vector<std::vector<int>> buildMatrix(const std::unordered_map<std::string, int>& elementCount, const std::vector<std::string>& compounds) {
+
+}
+
+std::string balanceReaction(const std::string& reaction) {
+ std::unordered_map<std::string, int> elementCount = countElements("CH4");
+   std::vector<std::vector<int>> coefficientMatrix = buildMatrix(elementCount, compounds);
+       solveMatrix(coefficientMatrix);
+         adjustCoefficients(coefficientMatrix);
+          return "Balanced reaction: " + reaction;
+}
+
+void solveMatrix(std::vector<std::vector<int>>& matrix) {
     int rows = matrix.size();
     int cols = matrix[0].size();
 
     for (int i = 0; i < rows; i++) {
         int pivot = matrix[i][i];
-        
+
         for (int j = i; j < cols; j++) {
             matrix[i][j] /= pivot;
         }
