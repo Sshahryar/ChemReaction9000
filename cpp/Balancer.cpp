@@ -3,6 +3,12 @@
 #include <vector>
 #include <unordered_map>
 
+
+std::unordered_map<std::string, int> countElements(const std::string& compound) {
+
+}
+
+
 void solveMatrix(std::vector<std::vector<int>>& matrix) {
 
 }
