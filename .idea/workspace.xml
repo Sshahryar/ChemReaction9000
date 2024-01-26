@@ -134,10 +134,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.BalancingEnter" />
-      <item itemvalue="Application.UI.BalancingEnter" />
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.Unnamed (1)" />
+      <item itemvalue="Application.UI.BalancingEnter" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
