@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build C++",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-o", "libYourLibraryName.so", "Balancer.cpp", "-shared", "-I<path-to-jdk-include>", "-I<path-to-jdk-include>/linux"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
