@@ -1,6 +1,6 @@
 public class ReactionBalancerJNI public class ReactionBalancerJNI {
     static {
-        System.load("<path-to-your-library>/YourLibraryName.so"); // or YourLibraryName.dll on Windows
+        System.load("<path-to-your-library>/YourLibraryName.so"); 
     }
 
     public native String balanceReaction(String reaction);

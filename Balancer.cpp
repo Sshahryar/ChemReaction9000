@@ -1,24 +1,18 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include <unordered_map>
 
 std::unordered_map<std::string, int> countElements(const std::string& compound) {
+    std::unordered_map<std::string, int> elementCount;
+    return elementCount;
 }
 
-std::vector<std::vector<int>> buildMatrix(const std::unordered_map<std::string, int>& elementCount, const std::vector<std::string>& compounds) {
-}
-
-void solveMatrix(std::vector<std::vector<int>>& matrix) {
+void solveMatrix() {
 }
 
 std::string balanceReaction(const std::string& reaction) {
     std::unordered_map<std::string, int> elementCount = countElements(reaction);
-
-    std::vector<std::vector<int>> coefficientMatrix = buildMatrix(elementCount, /* Define or pass 'compounds' here */);
-
-    solveMatrix(coefficientMatrix);
-    
+    solveMatrix();
     return "Balanced reaction: " + reaction;
 }
 
