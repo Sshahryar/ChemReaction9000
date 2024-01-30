@@ -4,24 +4,35 @@
 #include <unordered_map>
 
 std::unordered_map<std::string, int> countElements(const std::string& compound) {
-    std::unordered_map<std::string, int> elementCount;
-    return elementCount;
+    std::unordered_map<std::string, int> elements;
+    return elements;
 }
-std::vector<std::vector<int>> buildMatrix(const std::unordered_map<std::string, int>& elementCount, const std::vector<std::string>& compounds) {
-    std::vector<std::vector<int>> matrix;
-    return matrix;
+
+std::string balanceSynthesis(const std::string& reactants, const std::string& product) {
+    std::unordered_map<std::string, int> reactantElements = countElements(reactants);
+    std::unordered_map<std::string, int> productElements = countElements(product);
+
+    std::string balancedReaction = "Balanced synthesis reaction: " + reactants + " -> " + product;
+    return balancedReaction;
 }
-void solveMatrix(std::vector<std::vector<int>>& matrix) {
+
+std::string balanceDecomposition(const std::string& compound) {
+    std::unordered_map<std::string, int> compoundElements = countElements(compound);
+
+    std::string balancedReaction = "Balanced decomposition reaction: " + compound + " -> ";
+    return balancedReaction;
 }
-std::string balanceReaction(const std::string& reaction) {
-    std::unordered_map<std::string, int> elementCount = countElements(reaction);
-    std::vector<std::vector<int>> coefficientMatrix = buildMatrix(elementCount, /* Define or pass 'compounds' here */);
-    solveMatrix(coefficientMatrix);
-    return "Balanced reaction: " + reaction;
-}
+
 int main() {
-    std::string unbalancedReaction = "CH4 + O2 -> CO2 + H2O";
-    std::string balancedReaction = balanceReaction(unbalancedReaction);
-    std::cout << balancedReaction << std::endl;
+    std::string synthesisReactants = "H2 + O2";
+    std::string synthesisProduct = "H2O";
+    std::string balancedSynthesis = balanceSynthesis(synthesisReactants, synthesisProduct);
+    std::cout << balancedSynthesis << std::endl;
+
+    std::string compound = "H2O";
+    std::string balancedDecomposition = balanceDecomposition(compound);
+    std::cout << balancedDecomposition << std::endl;
+
     return 0;
+    
 }
