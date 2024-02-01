@@ -22,43 +22,35 @@ std::string balanceDecomposition(const std::string& compound) {
     std::string balancedReaction = "Balanced decomposition reaction: " + compound + " -> ";
     return balancedReaction;
 }
-std::string balanceIonic(const std::string& reactants, const std::string& product) {
 
+std::string balanceIonic(const std::string& reactants, const std::string& product) {
     std::vector<std::string> reactantList;
     std::vector<std::string> productList;
 
-      size_t pos = 0;
-    while ((pos = reactants.find('+')) != std::string::npos) {
-        std::string reactant = reactants.substr(0, pos);
+    std::string reactantsCopy = reactants;
+    std::string productCopy = product;
+
+    size_t pos = 0;
+    while ((pos = reactantsCopy.find('+')) != std::string::npos) {
+        std::string reactant = reactantsCopy.substr(0, pos);
         reactantList.push_back(reactant);
-        reactants.erase(0, pos + 1);
+        reactantsCopy.erase(0, pos + 1);
     }
-    reactantList.push_back(reactants);
+    reactantList.push_back(reactantsCopy);
 
-        pos = 0;
-    while ((pos = product.find('+')) != std::string::npos) {
-        std::string product = product.substr(0, pos);
+    pos = 0;
+    while ((pos = productCopy.find('+')) != std::string::npos) {
+        std::string product = productCopy.substr(0, pos);
         productList.push_back(product);
-        product.erase(0, pos + 1);
+        productCopy.erase(0, pos + 1);
     }
-    productList.push_back(product);
+    productList.push_back(productCopy);
 
-      std::unordered_map<std::string, int> reactantElements;
-    std::unordered_map<std::string, int> productElements;
-
-    for (const auto& reactant : reactantList) {
-
-    }
-
-     for (const auto& product : productList) {
-
-     }
-
-      std::string balancedEquation = "Balanced ionic equation: ";
-        return balancedEquation;
+    std::string balancedEquation = "Balanced ionic equation: ";
+    return balancedEquation;
 }
 
-    int main() {
+int main() {
     std::string synthesisReactants = "H2 + O2";
     std::string synthesisProduct = "H2O";
     std::string balancedSynthesis = balanceSynthesis(synthesisReactants, synthesisProduct);
@@ -69,5 +61,5 @@ std::string balanceIonic(const std::string& reactants, const std::string& produc
     std::cout << balancedDecomposition << std::endl;
 
     return 0;
-    
 }
+
