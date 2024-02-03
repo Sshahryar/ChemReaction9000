@@ -10,7 +10,7 @@ public class BalancingEnterController {
     private TextField reactionInput = new TextField();
     private Button balanceButton = new Button("Balance Reaction");
     private TextArea resultTextArea = new TextArea();
-
+5
     public BalancingEnterController() {
         initialize();
     }

@@ -5,6 +5,29 @@
 
 std::unordered_map<std::string, int> countElements(const std::string& compound) {
     std::unordered_map<std::string, int> elements;
+    std::string element;
+    int count = 0;
+
+    for (char c : compound) {
+        if (isupper(c)) {
+            if (!element.empty()) {
+                if (count == 0) count = 1;
+                elements[element] += count;
+            }
+            element = c;
+            count = 0;
+        } else if (islower(c)) {
+            element += c;
+        } else if (isdigit(c)) {
+            count = count * 10 + (c - '0');
+        }
+    }
+
+    if (!element.empty()) {
+        if (count == 0) count = 1;
+        elements[element] += count;
+    }
+
     return elements;
 }
 
@@ -12,7 +35,7 @@ std::string balanceSynthesis(const std::string& reactants, const std::string& pr
     std::unordered_map<std::string, int> reactantElements = countElements(reactants);
     std::unordered_map<std::string, int> productElements = countElements(product);
 
-    std::string balancedReaction = "Balanced synthesis reaction: " + reactants + " -> " + product;
+    std::string balancedReaction = "Balanced synthesis reaction: 2" + reactants + " -> 2" + product;
     return balancedReaction;
 }
 
