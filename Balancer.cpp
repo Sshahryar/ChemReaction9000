@@ -47,29 +47,33 @@ std::string balanceDecomposition(const std::string& compound) {
 }
 
 std::string balanceIonic(const std::string& reactants, const std::string& product) {
-    std::vector<std::string> reactantList;
-    std::vector<std::string> productList;
+    std::unordered_map<std::string, int> reactantElements = countElements(reactants);
+    std::unordered_map<std::string, int> productElements = countElements(product);
 
-    std::string reactantsCopy = reactants;
-    std::string productCopy = product;
-
-    size_t pos = 0;
-    while ((pos = reactantsCopy.find('+')) != std::string::npos) {
-        std::string reactant = reactantsCopy.substr(0, pos);
-        reactantList.push_back(reactant);
-        reactantsCopy.erase(0, pos + 1);
+    std::unordered_map<std::string, int> spectatorIons;
+    for (const auto& [element, count] : reactantElements) {
+        if (productElements.count(element) && productElements[element] == count) {
+            spectatorIons[element] = count;
+        }
     }
-    reactantList.push_back(reactantsCopy);
 
-    pos = 0;
-    while ((pos = productCopy.find('+')) != std::string::npos) {
-        std::string product = productCopy.substr(0, pos);
-        productList.push_back(product);
-        productCopy.erase(0, pos + 1);
+    for (const auto& [element, count] : spectatorIons) {
+        reactantElements.erase(element);
+        productElements.erase(element);
     }
-    productList.push_back(productCopy);
 
     std::string balancedEquation = "Balanced ionic equation: ";
+    for (const auto& [element, count] : reactantElements) {
+        balancedEquation += std::to_string(count) + element + " + ";
+    }
+    balancedEquation.pop_back();
+    balancedEquation.pop_back();
+    balancedEquation += " -> ";
+    for (const auto& [element, count] : productElements) {
+        balancedEquation += std::to_string(count) + element + " + ";
+    }
+    balancedEquation.pop_back();
+
     return balancedEquation;
 }
 
@@ -83,7 +87,10 @@ int main() {
     std::string balancedDecomposition = balanceDecomposition(compound);
     std::cout << balancedDecomposition << std::endl;
 
+    std::string ionicReactants = "NaCl + AgNO3";
+    std::string ionicProduct = "NaNO3 + AgCl";
+    std::string balancedIonic = balanceIonic(ionicReactants, ionicProduct);
+    std::cout << balancedIonic << std::endl;
+
     return 0;
 }
-
-
