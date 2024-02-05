@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include <unordered_map>
 
 std::unordered_map<std::string, int> countElements(const std::string& compound) {
@@ -34,34 +33,24 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
 std::string balanceSynthesis(const std::string& reactants, const std::string& product) {
     std::unordered_map<std::string, int> reactantElements = countElements(reactants);
     std::unordered_map<std::string, int> productElements = countElements(product);
-
     std::string balancedReaction = "Balanced synthesis reaction: 2" + reactants + " -> 2" + product;
     return balancedReaction;
 }
 
 std::string balanceDecomposition(const std::string& compound) {
-    std::unordered_map<std::string, int> compoundElements = countElements(compound);
-
-    std::string balancedReaction = "Balanced decomposition reaction: " + compound + " -> ";
+    std::string balancedReaction = "Balanced decomposition reaction: " + compound + " -> ???";
     return balancedReaction;
 }
 
 std::string balanceIonic(const std::string& reactants, const std::string& product) {
     std::unordered_map<std::string, int> reactantElements = countElements(reactants);
     std::unordered_map<std::string, int> productElements = countElements(product);
-
     std::unordered_map<std::string, int> spectatorIons;
     for (const auto& [element, count] : reactantElements) {
         if (productElements.count(element) && productElements[element] == count) {
             spectatorIons[element] = count;
         }
     }
-
-    for (const auto& [element, count] : spectatorIons) {
-        reactantElements.erase(element);
-        productElements.erase(element);
-    }
-
     std::string balancedEquation = "Balanced ionic equation: ";
     for (const auto& [element, count] : reactantElements) {
         balancedEquation += std::to_string(count) + element + " + ";
@@ -73,7 +62,6 @@ std::string balanceIonic(const std::string& reactants, const std::string& produc
         balancedEquation += std::to_string(count) + element + " + ";
     }
     balancedEquation.pop_back();
-
     return balancedEquation;
 }
 
