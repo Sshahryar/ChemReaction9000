@@ -6,12 +6,14 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
     std::unordered_map<std::string, int> elements;
     std::string element;
     int count = 0;
+    int groupCount = 0;
 
-    for (char c : compound) {
+    for (size_t i = 0; i < compound.size(); ++i) {
+        char c = compound[i];
         if (isupper(c)) {
             if (!element.empty()) {
                 if (count == 0) count = 1;
-                elements[element] += count;
+                elements[element] += count * (groupCount == 0 ? 1 : groupCount);
             }
             element = c;
             count = 0;
@@ -19,12 +21,31 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
             element += c;
         } else if (isdigit(c)) {
             count = count * 10 + (c - '0');
+        } else if (c == '(') {
+            if (!element.empty()) {
+                if (count == 0) count = 1;
+                elements[element] += count * (groupCount == 0 ? 1 : groupCount);
+                element.clear();
+                count = 0;
+            }
+            groupCount = 0;
+        } else if (c == ')') {
+            if (!element.empty()) {
+                if (count == 0) count = 1;
+                elements[element] += count * (groupCount == 0 ? 1 : groupCount);
+                element.clear();
+                count = 0;
+            }
+            groupCount = 0;
+            if (isdigit(compound[i+1])) {
+                groupCount = compound[i+1] - '0';
+            }
         }
     }
 
     if (!element.empty()) {
         if (count == 0) count = 1;
-        elements[element] += count;
+        elements[element] += count * (groupCount == 0 ? 1 : groupCount);
     }
 
     return elements;
@@ -66,19 +87,4 @@ std::string balanceIonic(const std::string& reactants, const std::string& produc
 }
 
 int main() {
-    std::string synthesisReactants = "H2 + O2";
-    std::string synthesisProduct = "H2O";
-    std::string balancedSynthesis = balanceSynthesis(synthesisReactants, synthesisProduct);
-    std::cout << balancedSynthesis << std::endl;
-
-    std::string compound = "H2O";
-    std::string balancedDecomposition = balanceDecomposition(compound);
-    std::cout << balancedDecomposition << std::endl;
-
-    std::string ionicReactants = "NaCl + AgNO3";
-    std::string ionicProduct = "NaNO3 + AgCl";
-    std::string balancedIonic = balanceIonic(ionicReactants, ionicProduct);
-    std::cout << balancedIonic << std::endl;
-
-    return 0;
-}
+    std::string synthesisReactants = "H2 + O2
