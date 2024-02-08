@@ -7,13 +7,16 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
     std::string element;
     int count = 0;
     int groupCount = 0;
+    int coefficient = 1;
 
     for (size_t i = 0; i < compound.size(); ++i) {
         char c = compound[i];
-        if (isupper(c)) {
+        if (isdigit(c) && (i == 0 || compound[i-1] == '+' || compound[i-1] == ' ')) {
+            coefficient = c - '0';
+        } else if (isupper(c)) {
             if (!element.empty()) {
                 if (count == 0) count = 1;
-                elements[element] += count * (groupCount == 0 ? 1 : groupCount);
+                elements[element] += count * coefficient * (groupCount == 0 ? 1 : groupCount);
             }
             element = c;
             count = 0;
@@ -24,7 +27,7 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
         } else if (c == '(') {
             if (!element.empty()) {
                 if (count == 0) count = 1;
-                elements[element] += count * (groupCount == 0 ? 1 : groupCount);
+                elements[element] += count * coefficient * (groupCount == 0 ? 1 : groupCount);
                 element.clear();
                 count = 0;
             }
@@ -32,7 +35,7 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
         } else if (c == ')') {
             if (!element.empty()) {
                 if (count == 0) count = 1;
-                elements[element] += count * (groupCount == 0 ? 1 : groupCount);
+                elements[element] += count * coefficient * (groupCount == 0 ? 1 : groupCount);
                 element.clear();
                 count = 0;
             }
@@ -45,7 +48,7 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
 
     if (!element.empty()) {
         if (count == 0) count = 1;
-        elements[element] += count * (groupCount == 0 ? 1 : groupCount);
+        elements[element] += count * coefficient * (groupCount == 0 ? 1 : groupCount);
     }
 
     return elements;
