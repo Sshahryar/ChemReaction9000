@@ -89,5 +89,3 @@ std::string balanceIonic(const std::string& reactants, const std::string& produc
     return balancedEquation;
 }
 
-int main() {
-    std::string synthesisReactants = "H2 + O2
