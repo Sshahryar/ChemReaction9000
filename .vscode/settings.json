@@ -47,5 +47,8 @@
         "lib",
         ".vscode",
         ".mvn"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
     ]
 }
