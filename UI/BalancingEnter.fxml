@@ -15,9 +15,10 @@
           padding="10">
 
     <Label text="Enter Chemical Reaction:" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
-    <TextField fx:id="reactionInput" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+    <TextField fx:id="reactionInput" promptText="e.g., H2 + O2 -> H2O" GridPane.rowIndex="1" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
     <Button text="Balance" onAction="#balanceReaction" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
-    <TextArea fx:id="resultTextArea" GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
+    <TextArea fx:id="resultTextArea" promptText="Balanced reaction will appear here" GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="2"/>
 
 </GridPane>
+
 
