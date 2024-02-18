@@ -88,3 +88,4 @@ std::string balanceIonic(const std::string& reactants, const std::string& produc
     balancedEquation.pop_back();
     return balancedEquation;
 }
+    
