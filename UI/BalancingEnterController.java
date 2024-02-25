@@ -1,5 +1,6 @@
 package UI;
 
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -23,8 +24,12 @@ public class BalancingEnterController {
 
     private void balanceReaction() {
         String reaction = reactionInput.getText();
-        String balancedReaction = balanceReaction(reaction);
-        resultTextArea.setText("Balanced Reaction:\n" + balancedReaction);
+        if (!reaction.isEmpty()) {
+            String balancedReaction = balanceReaction(reaction);
+            resultTextArea.setText("Balanced Reaction:\n" + balancedReaction);
+        } else {
+            showAlert("Error", "No reaction entered", "Please enter a chemical reaction before balancing.");
+        }
     }
 
     private void clearFields() {
@@ -34,6 +39,14 @@ public class BalancingEnterController {
 
     private String balanceReaction(String reaction) {
         return reaction;
+    }
+
+    private void showAlert(String title, String header, String content) {
+        Alert alert = new Alert(Alert.AlertType.ERROR);
+        alert.setTitle(title);
+        alert.setHeaderText(header);
+        alert.setContentText(content);
+        alert.showAndWait();
     }
 
     public VBox getView() {
