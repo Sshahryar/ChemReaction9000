@@ -37,11 +37,15 @@ public class BalancingEnterController {
 
     private void balanceReaction() {
         String reaction = reactionInput.getText();
-        if (isValidReactionFormat(reaction)) {
-            String balancedReaction = balanceChemicalReaction(reaction);
-            resultTextArea.setText("Balanced Reaction:\n" + balancedReaction);
-        } else {
-            resultTextArea.setText("Invalid reaction format. Please enter a valid chemical reaction.");
+        try {
+            if (isValidReactionFormat(reaction)) {
+                String balancedReaction = balanceChemicalReaction(reaction);
+                resultTextArea.setText("Balanced Reaction:\n" + balancedReaction);
+            } else {
+                resultTextArea.setText("Invalid reaction format. Please enter a valid chemical reaction.");
+            }
+        } catch (Exception e) {
+            resultTextArea.setText("Error: " + e.getMessage());
         }
     }
 
@@ -54,8 +58,10 @@ public class BalancingEnterController {
         resultTextArea.clear();
     }
 
-    private String balanceChemicalReaction(String reaction) {
-        return "Balanced Chemical Reaction for " + reaction;
+    private String balanceChemicalReaction(String reaction) throws Exception {
+        // Implement your chemical reaction balancing algorithm here
+        // If the reaction cannot be balanced for some reason, throw an exception
+        throw new Exception("Unable to balance reaction: " + reaction);
     }
     
     private Tooltip createTooltip(String text) {
