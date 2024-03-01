@@ -8,11 +8,17 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
     int count = 0;
     int groupCount = 0;
     int coefficient = 1;
+    bool inGroup = false;
 
     for (size_t i = 0; i < compound.size(); ++i) {
         char c = compound[i];
-        if (isdigit(c) && (i == 0 || compound[i-1] == '+' || compound[i-1] == ' ')) {
-            coefficient = c - '0';
+        if (isdigit(c)) {
+            if (i > 0 && isdigit(compound[i - 1])) {
+                count = count * 10 + (c - '0');
+            } else {
+                coefficient = c - '0';
+                count = 0;
+            }
         } else if (isupper(c)) {
             if (!element.empty()) {
                 if (count == 0) count = 1;
@@ -22,8 +28,6 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
             count = 0;
         } else if (islower(c)) {
             element += c;
-        } else if (isdigit(c)) {
-            count = count * 10 + (c - '0');
         } else if (c == '(') {
             if (!element.empty()) {
                 if (count == 0) count = 1;
@@ -32,6 +36,7 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
                 count = 0;
             }
             groupCount = 0;
+            inGroup = true;
         } else if (c == ')') {
             if (!element.empty()) {
                 if (count == 0) count = 1;
@@ -40,8 +45,10 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
                 count = 0;
             }
             groupCount = 0;
-            if (isdigit(compound[i+1])) {
-                groupCount = compound[i+1] - '0';
+            inGroup = false;
+            if (isdigit(compound[i + 1])) {
+                groupCount = compound[i + 1] - '0';
+                ++i;
             }
         }
     }
@@ -53,6 +60,7 @@ std::unordered_map<std::string, int> countElements(const std::string& compound) 
 
     return elements;
 }
+
 
 std::string balanceSynthesis(const std::string& reactants, const std::string& product) {
     std::unordered_map<std::string, int> reactantElements = countElements(reactants);
