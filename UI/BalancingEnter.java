@@ -10,16 +10,19 @@ public class BalancingEnter extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("BalancingEnter.fxml"));
-        Parent root = loader.load();
+        Parent root = loadFXML("BalancingEnter.fxml");
 
         primaryStage.setTitle("Chemical Reaction Balancer");
         primaryStage.setScene(new Scene(root, 400, 300));
         primaryStage.show();
     }
 
+    private Parent loadFXML(String fxmlFileName) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource(fxmlFileName));
+        return loader.load();
+    }
+
     public static void main(String[] args) {
         launch(args);
     }
 }
-
