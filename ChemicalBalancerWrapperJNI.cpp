@@ -1,10 +1,10 @@
 #include "ChemicalBalancerWrapper.h"
-#include "ChemicalBalancer.h"
+#include "Balancer.cpp"
 
 ChemicalBalancerWrapper::ChemicalBalancerWrapper() {}
 
 ChemicalBalancerWrapper::~ChemicalBalancerWrapper() {}
 
 std::string ChemicalBalancerWrapper::balanceChemicalReaction(const std::string& reaction) {
-    return ChemicalBalancer::balanceChemicalReaction(reaction);
+    return balanceChemicalReaction(reaction);
 }
