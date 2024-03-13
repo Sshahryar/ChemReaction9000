@@ -1,10 +1,11 @@
 #include "ChemicalBalancerWrapper.h"
 #include "Balancer.cpp"
 
-ChemicalBalancerWrapper::ChemicalBalancerWrapper() {}
+JNIEXPORT jstring JNICALL Java_ChemicalBalancer_balanceChemicalReaction(JNIEnv* env, jobject obj, jstring reaction) {
+    const char* reactionStr = env->GetStringUTFChars(reaction, nullptr);
+    std::string result = countElements(reactionStr); 
+    env->ReleaseStringUTFChars(reaction, reactionStr);
 
-ChemicalBalancerWrapper::~ChemicalBalancerWrapper() {}
-
-std::string ChemicalBalancerWrapper::balanceChemicalReaction(const std::string& reaction) {
-    return balanceChemicalReaction(reaction);
+    return env->NewStringUTF(result.c_str());
 }
+
