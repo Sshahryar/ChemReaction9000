@@ -19,7 +19,6 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/outputFileName.exe", 
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
