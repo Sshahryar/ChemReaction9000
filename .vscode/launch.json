@@ -1,32 +1,11 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "java",
-            "name": "Launch External Terminal",
+            "name": "Run BalancingEnter",
             "request": "launch",
-            "console": "externalTerminal",
-            "mainClass": ""
-        },
-        {
-            "type": "java",
-            "name": "Launch Java Program",
-            "request": "launch",
-            "mainClass": ""
-        },
-        {
-            "name": "Debug",
-            "type": "cppdbg",
-            "request": "launch",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "gdb",
-            "preLaunchTask": "build" 
+            "mainClass": "BalancingEnter"
         }
     ]
 }
