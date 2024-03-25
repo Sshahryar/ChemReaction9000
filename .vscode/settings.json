@@ -1,11 +1,13 @@
-"java.configuration.runtimes": [
-    {
-        "name": "JavaSE-1.8",
-        "path": "/path/to/jdk1.8.0",
-        "default": true
-    },
-    {
-        "name": "JavaSE-11",
-        "path": "/path/to/jdk-11"
-    }
-]
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/path/to/jdk1.8.0",
+            "default": true
+        },
+        {
+            "name": "JavaSE-11",
+            "path": "/path/to/jdk-11"
+        }
+    ]
+}
