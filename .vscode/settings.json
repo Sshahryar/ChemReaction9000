@@ -3,12 +3,12 @@
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
-            "path": "OpenJDK11U-jdk_x64_windows_hotspot_11.0.20.1_1.zip",
+            "path": "C:\\Users\\hussa\\DownloadsOpenJDK11U-jdk_x64_windows_hotspot_11.0.20.1_1.zip",
             "default": true
         },
         {
             "name": "JavaSE-11",
-            "path": "OpenJDK11U-jdk_x64_windows_hotspot_11.0.20.1_1.zip"
+            "path": "C:\\Users\\hussa\\DownloadsOpenJDK11U-jdk_x64_windows_hotspot_11.0.20.1_1.zip"
         }
     ]
 }
