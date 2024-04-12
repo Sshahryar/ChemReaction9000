@@ -5,7 +5,7 @@
             "type": "java",
             "name": "Run BalancingEnter",
             "request": "launch",
-            "mainClass": "BalancingEnter.fxml"
+            "mainClass": "BalancingEnter.java"
         }
     ]
 }
