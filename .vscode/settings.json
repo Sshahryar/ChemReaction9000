@@ -3,12 +3,12 @@
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
-            "path": "C:\\Users\\hussa\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot\bin",
+            "path": "C:\\Users\\hussa\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot",
             "default": true
         },
         {
             "name": "JavaSE-11",
-            "path": "C:\\Users\\hussa\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot\bin"
+            "path": "C:\\Users\\hussa\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot"
         }
     ]
 }
