@@ -5,7 +5,7 @@
             "type": "java",
             "name": "Run BalancingEnter",
             "request": "launch",
-            "mainClass": "BalancingEnter.java"
+            "mainClass": "UI.BalancingEnter"
         }
     ]
 }
