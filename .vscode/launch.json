@@ -5,7 +5,9 @@
             "type": "java",
             "name": "Run BalancingEnter",
             "request": "launch",
-            "mainClass": "UI.BalancingEnter"
+            "mainClass": "UI.BalancingEnter",
+            "vmArgs": "--module-path /path/to/javafx/sdk --add-modules javafx.controls,javafx.fxml"
+
         }
     ]
 }
