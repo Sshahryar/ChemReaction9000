@@ -10,5 +10,6 @@
             "name": "JavaSE-11",
             "path": "C:\\Users\\hussa\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.5.8-hotspot"
         }
-    ]
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
 }
