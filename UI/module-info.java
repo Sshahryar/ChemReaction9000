@@ -1,4 +1,4 @@
-module your.module.name {
+module ChemReaction9000 {
     requires javafx.controls;
     requires javafx.graphics;
 
