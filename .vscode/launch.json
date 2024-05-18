@@ -1,13 +1,14 @@
 {
     "configurations": [
+        
         {
             "type": "java",
             "name": "Launch YourApplication",
             "request": "launch",
-            "mainClass": "your.module.name.YourApplication",
-            "modulePaths": ["path/to/your/modules"],
-            "classPaths": ["path/to/your/classes"],
-            "vmArgs": "--module-path path/to/javafx/sdk --add-modules javafx.controls,javafx.fxml"
+            "mainClass": "BalancingEnter",
+            "modulePaths": ["C:/Users/hussa/Downloads/ChemReaction9000"],
+            "classPaths": ["C:/Users/hussa/Downloads/ChemReaction9000/bin"],
+            "vmArgs": ""
         }
     ]
 }
