@@ -8,7 +8,7 @@
             "mainClass": "BalancingEnter",
             "modulePaths": ["C:/Users/hussa/Downloads/ChemReaction9000"],
             "classPaths": ["C:/Users/hussa/Downloads/ChemReaction9000/bin"],
-            "vmArgs": "--module-path C:/Users/hussa/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module path c:/Users/hussa/Downloads/javafx-sdk-17.0.11 --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
