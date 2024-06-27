@@ -2,7 +2,7 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch YourApplication",
+            "name": "Launch ChemReaction9000",
             "request": "launch",
             "mainClass": "BalancingEnter",
             "modulePaths": ["C:/Users/hussa/Downloads/ChemReaction9000"],
