@@ -5,9 +5,10 @@
             "name": "Launch ChemReaction9000",
             "request": "launch",
             "mainClass": "BalancingEnter",
-            "modulePaths": ["C:/Users/hussa/Downloads/ChemReaction9000"],
+            "modulePaths": ["C:/Users/hussa/Downloads/javafx-sdk-17.0.11/lib"],
             "classPaths": ["C:/Users/hussa/Downloads/ChemReaction9000/bin"],
-            "vmArgs": "--module-path c:/Users/hussa/Downloads/javafx-sdk-17.0.11/lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path C:/Users/hussa/Downloads/javafx-sdk-17.0.11/lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
+
