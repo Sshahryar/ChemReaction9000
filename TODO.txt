@@ -1,1 +1,2 @@
 reminder to check maven installation and or update the plugin to solve the java.lang.NullPointerException issue
+did a fresh install of openjdk 21
