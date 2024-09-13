@@ -1,2 +1,5 @@
 reminder to check maven installation and or update the plugin to solve the java.lang.NullPointerException issue
 did a fresh install of openjdk 21
+//current error: 
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Module javafx.controls not found
