@@ -1,3 +1,5 @@
 //current error: 
 Error occurred during initialization of boot layer
 java.lang.module.FindException: Module javafx.controls not found
+
+//resolved issue with missing jdk runtimes
