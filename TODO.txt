@@ -4,4 +4,4 @@ java.lang.module.FindException: Module javafx.controls not found
 (still unresolved)
 
 //Possible fix to verify javafx sdk path
-
+//Also check for possible duplicate --module-path arguments
