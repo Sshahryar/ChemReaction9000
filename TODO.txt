@@ -2,10 +2,12 @@ Error occurred during initialization of boot layer
 java.lang.module.FindException: Module javafx.controls not found
 (RESOLVED)
 
-//current error: 
-
-Error: Could not find or load main class BalancingEnter
-Caused by: java.lang.ClassNotFoundException: BalancingEnter
-(Investiage source root paths)
 
 /* Upon running the app using a powershell command, the app crashed quickly after opening */
+
+Current error: 
+Error: Could not find or load main class BalancingEnter
+Caused by: java.lang.ClassNotFoundException: BalancingEnter
+
+- Will check classpaths
+- Investiage package structure
