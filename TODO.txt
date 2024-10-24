@@ -1,8 +1,5 @@
 /* Upon running the app using a powershell command, the app crashed quickly after opening */
 
 Current error: 
-Error: Could not find or load main class BalancingEnter
-Caused by: java.lang.ClassNotFoundException: BalancingEnter
-
-- Will check classpaths
-- Investiage package structure
+Error: Could not find or load main class com.example.BalancingEnter
+Caused by: java.lang.ClassNotFoundException: com.example.BalancingEnter
