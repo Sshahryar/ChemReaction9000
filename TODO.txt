@@ -1,5 +1,4 @@
-/* Upon running the app using a powershell command, the app crashed quickly after opening */
+//BalancingEnter class is compiling, but with 16 errors in regards to issues with JavaFX packages,
+specifically errors when importing
 
-Current error: 
-Error: Could not find or load main class com.example.BalancingEnter
-Caused by: java.lang.ClassNotFoundException: com.example.BalancingEnter
+//Next steps:
