@@ -1,4 +1,3 @@
-//BalancingEnter class is compiling, but with 16 errors in regards to issues with JavaFX packages,
-specifically errors when importing
+// When compiling directly from the main directory, there is a comaptility error with the JavaFX SDk
 
-//Next steps:
+/: Either match JDK to JavaFX, or downgrade JavaFX */
