@@ -1,3 +1,7 @@
 // When compiling directly from the main directory, there is a comaptility error with the JavaFX SDk
 
-/: Either match JDK to JavaFX, or downgrade JavaFX */
+Issue 1: /: Either match JDK to JavaFX, or downgrade JavaFX */
+
+Code is compiling, but not running the application successfully
+
+// TODO: Issue 1
