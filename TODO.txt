@@ -1,10 +1,5 @@
-Issue 1: /: Either match JDK to JavaFX, or downgrade JavaFX */
-
 Code is compiling, but not running the application successfully
 
 ** Issue with the QuantumRenderer initialization
-Issue most likely related to graphics pipeline
+//Some test code does execute with a batch file, but still have reocurring issues with graphics pipeline initialization
 
-TODO: Some tinkering around with environment variables
-
-some issues with forceGPU usage
