@@ -1,5 +1,3 @@
-Code is compiling, but not running the application successfully
+//TODO:
 
-** Issue with the QuantumRenderer initialization
-//Some test code does execute with a batch file, but still have reocurring issues with graphics pipeline initialization
-
+Execute batch file, and run Javafx configs from the file (runJavaFX.bat)
