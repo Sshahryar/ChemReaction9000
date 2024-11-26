@@ -1,3 +1,7 @@
 //TODO:
 
-Execute batch file, and run Javafx configs from the file (runJavaFX.bat)
+Execute batch file, and run Javafx configs from the file (runJavaFX.bat) [DONE]
+
+Issue still persists with QuantumRender intilization
+
+Have tried directly adding PATH environment variables directly to javaFX bin directory, some progress made
