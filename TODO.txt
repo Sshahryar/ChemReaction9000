@@ -8,3 +8,5 @@ Have tried directly adding PATH environment variables directly to javaFX bin dir
 //TODO:
 
 Force software rendering, or use another rendering setting.
+
+/* Upon further testing, the issue does not seemes contained to just BalancingEnter */
