@@ -1,12 +1,5 @@
 //ISSUES:
 
-Issue still persists with QuantumRender intilization
-
-Have tried directly adding PATH environment variables directly to javaFX bin directory, some progress made 
-- ^^ However no solution found
-
-//TODO:
-
-Force software rendering, or use another rendering setting.
-
-/* Upon further testing, the issue does not seemes contained to just BalancingEnter */
+Make sure my graphics drivers are up-to-date
+Verify JDK paths
+Use alternate rendering options
