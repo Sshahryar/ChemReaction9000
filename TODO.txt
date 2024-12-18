@@ -1,5 +1,5 @@
-//ISSUES:
+//UPDATES:
 
-Make sure my graphics drivers are up-to-date
-Verify JDK paths
-Use alternate rendering options
+Tried even simpler testing, continued error with QuantumRenderer
+
+Will verify or reinstall JavaFX
