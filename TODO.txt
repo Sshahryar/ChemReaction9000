@@ -1,5 +1,5 @@
 //UPDATES:
 
-Tried even simpler testing, continued error with QuantumRenderer
-
 Will verify or reinstall JavaFX
+
+May different JDK and or JavaFX SDK.
