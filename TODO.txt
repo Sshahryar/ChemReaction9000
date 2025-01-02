@@ -1,5 +1,5 @@
 //UPDATES:
 
-Will verify or reinstall JavaFX
+Changed to JDK 21
 
-May different JDK and or JavaFX SDK.
+Going to update to latest compatible JavaFX SDK
