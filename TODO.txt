@@ -1,5 +1,3 @@
-//UPDATES:
+//Fix: Set up and tested JavaFX environment with new SDK, test file works
 
-Changed to JDK 21
-
-Going to update to latest compatible JavaFX SDK
+Updated launch.json
