@@ -1,3 +1,4 @@
-//Fix: Set up and tested JavaFX environment with new SDK, test file works
+// New updates:
 
-Updated launch.json
+FXML loading issues
+TODO: Updating FXML loader paths
